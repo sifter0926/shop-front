@@ -22,7 +22,6 @@ const Home =()=>{
         });
     },[]);
 
-
     const handleChange=(e)=>{
         setQuantity(e.target.value)
         console.log(quantity);
